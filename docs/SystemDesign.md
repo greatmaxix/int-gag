@@ -2,16 +2,16 @@
 
    #### Authors
 
-   ..* Wade David Friedrichs
-   ..* Mxolisi Silabela
+   * Wade David Friedrichs
+   * Mxolisi Silabela
 
    #### Team Members
 
-   ..* Maksat
-   ..* Amer 
-   ..* Xolani
-   ..* Kaddour
-   ..* Ma mingke
+   * Maksat
+   * Amer 
+   * Xolani
+   * Kaddour
+   * Ma mingke
 
 
 ### Introduction
@@ -19,21 +19,19 @@
     We will design Int-Gag using Php, Laravel with a mysql database. We will use html/css to design a nice looking interface posts in
     the middle of the page with ample space on either side for later added features. The tables in the database should hold; 
 
-    **_ Users _**
+    #### 1. Users 
+    * usernames, 
+    * passwords,
+    * emails 
 
-    holding 
-    ..* usernames, 
-    ..* passwords,
-    ..* emails 
-
-    **_ Posts _**
+    #### 2.Posts 
 
     holding
-    ..* images(The actual post), 
-    ..* Who posted(Username),
-    ..* Category of the post,
-    ..* Amount of likes,
-    ..* Comments
+    * images(The actual post), 
+    * Who posted(Username),
+    * Category of the post,
+    * Amount of likes,
+    * Comments
 
 
     Users will be able to scroll through a feed of posts in the beginning we shall just have all the posts and if time allows we will add 
