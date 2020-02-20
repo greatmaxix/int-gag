@@ -1,6 +1,20 @@
 #System Design Document
 
-###**_Purpose_**
+   ####Authors
+
+   ..*Wade David Friedrichs
+   ..*Mxolisi Silabela
+
+   ####Team Members
+   
+   ..*Maksat
+   ..*Amer 
+   ..*Xolani
+   ..*Kaddour
+   ..*Ma mingke
+
+
+###**_Introduction_**
 The results of the system design process are recorded in the System Design Document (SDD). This document completely describes the system at the architecture level, including subsystems and their services, hardware mapping, data management, access control, global software control structure, and boundary conditions. The SDD should define a virtual machine that implements all requirements in the RAD, and it should provide a foundational guide for further implementation details all the way to an executable solution.
 
     Our system will involve a
