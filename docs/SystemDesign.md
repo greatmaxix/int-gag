@@ -6,7 +6,7 @@
    ..*Mxolisi Silabela
 
    ####Team Members
-   
+
    ..*Maksat
    ..*Amer 
    ..*Xolani
@@ -17,7 +17,31 @@
 ###**_Introduction_**
 The results of the system design process are recorded in the System Design Document (SDD). This document completely describes the system at the architecture level, including subsystems and their services, hardware mapping, data management, access control, global software control structure, and boundary conditions. The SDD should define a virtual machine that implements all requirements in the RAD, and it should provide a foundational guide for further implementation details all the way to an executable solution.
 
-    Our system will involve a
+    We will design Int-Gag using Php, Laravel with a mysql database. We will use html/css to design a nice looking interface posts in
+    the middle of the page with ample space on either side for later added features. The tables in the database should hold; 
+
+    #####Users
+
+    holding 
+    ..*usernames, 
+    ..*passwords,
+    ..*emails 
+
+    #####Posts
+
+    holding
+    ..*images(The actual post), 
+    ..*Who posted(Username),
+    ..*Category of the post,
+    ..*Amount of likes,
+    ..*Comments
+
+
+    Users will be able to scroll through a feed of posts in the beginning we shall just have all the posts and if time allows we will add 
+    functionalities such as a hot page(holding posts over a certain amount likes), Category pages etc. Users will be able to look at the posts, through various categories pages etc without an account but in order to comment or add posts, they should have to log in.
+    
+
+
 
 Note that the SDD is a "live" document that should be incrementally expanded and refined during review cycles.
 
