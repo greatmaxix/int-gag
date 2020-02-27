@@ -23,7 +23,8 @@
     * id,
     * usernames, 
     * passwords,
-    * emails 
+    * emails,
+    * Date of birth
 
     #### 2. Posts 
 
@@ -58,20 +59,35 @@ The purpose of the system is to create an application that can be used by Intern
   ##### Architecture
 
     The main system will be composed of a laravel framework, Design aspects of the project should include a header, footer, as designed by the team.
+
   ##### Design 
 
      Ample space on either side of the screen and have the images loaded on a card in which users may see the amount of likes\dislikes and a small logo\button which will open up the card and the user may view the comments made on the post in order of comment likes.
+  
   ##### Functionalities
 
       As of the beginning of the project listing all the images with thier titles and being able to scroll down the website will be sufficent but as the progress of the project progresses. We would like to add further functionality such as sorting by likes, having only posts over a certain amount of likes being shown in 3 categories, Hot - Above 1000 likes, Wow - Above 500 likes and Fresh which will contain all posts made by anyone. We would also like to add the ability to sort via categories. having a drop down menu which would have the categories in the header and a user can select any one of thier choosing.
+ 
   #### User Abilities
-  
-    
+
+
      As for user permissions anyone may see the posts made on the website but in order for a user to write comments or add posts to the website they would have to log in.
 
 
 
- 
+ #### Reference Material 
+
+ Throughout the process of system design we used amny reasources and references to make a very encompassing and successful system design document. we used :
+                https://www.its.dot.gov/research_archives/msaa/pdf/MSAA_SystemDesignFINAL.pdf System design template
+                https://www.cs.fsu.edu/~lacher/courses/COP3331/sdd.html
+
+                as an example of how a system design document is written
+
+                https://www.freecodecamp.org/news/how-to-write-a-good-software-design-document-66fcf019569c/
+
+                Principles of writing a good system design document. Good writing and how to make an intriguing document.
+
+
 
 3. Proposed software architecture	This section describes the top level software architecture for the system under development.
  
