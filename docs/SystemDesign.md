@@ -16,7 +16,7 @@
 
 ### Introduction
 
-    The purpose of the system is to create an application that can be used by International students as well as anyone else for the sake of leisure and relaxation after a long day of lectures. It will also be very helpful in terms of interaction and building a strong community among students where they can post each others memes and come together to share a good laugh over beer or anything that they like. "A community that laughs together stays together" is our moto going into this idea. As far as to our knowledge there is no real platform that is able to connect international students other than facebook which is used for various reasons, with this application our main focus is giving people a good time.
+    
 
     We will design Int-Gag using Php, Laravel with a mysql database. We will use html/css to design a nice looking interface posts in
     the middle of the page with ample space on either side for later added features. The tables in the database should hold; 
@@ -42,9 +42,12 @@
     * Comment
 
 
-
     Users will be able to scroll through a feed of posts in the beginning we shall just have all the posts and if time allows we will add 
     functionalities such as a hot page(holding posts over a certain amount likes), Category pages etc. Users will be able to look at the posts, through various categories pages etc without an account but in order to comment or add posts, they should have to log in.
+
+####Purpose and Goals
+
+The purpose of the system is to create an application that can be used by International students as well as anyone else for the sake of leisure and relaxation after a long day of lectures. It will also be very helpful in terms of interaction and building a strong community among students where they can post each others memes and come together to share a good laugh over beer or anything that they like. "A community that laughs together stays together" is our moto going into this idea. As far as to our knowledge there is no real platform that is able to connect international students other than facebook which is used for various reasons, with this application our main focus is giving people a good time.
 
 
 Template
