@@ -26,7 +26,7 @@ the project my get expended to add an admin page were an admin can manage the po
 
 ## Use Cases
 
-the user will login in the system, and then the user will see some feed on the dashboard. the user can double click on a photo to like the photo so the user will see how many ppl liked this photo before.
+The user will see some feed on the dashboard. in order to add posts or comment the user will have to login in first. the user can double click on a photo to like the photo so the user will see how many ppl liked this photo before.
 
 -adding a post:
 the user can write a post/meme into the his own page and it will show on other users feed page.
@@ -34,3 +34,18 @@ the user can write a post/meme into the his own page and it will show on other u
 -admin page:
 will have two taps the first one would be for the users were admin can manage the users of the system.
 the seconed tap could be the posts tab were an admin can remove and add/update posts
+
+-Login :
+A user will be able to login in a few easy steps at the top of the screen there will be to input boxes for logining
+
+-Register page:
+A page which a user can fill a form and be added into our database and afterwards they will be allowed to make posts as well as write comments.
+
+-Main page:
+This page has images from the databasse put onto the screen and the user may scroll through all the posts made.
+
+## What it should and not should be 
+
+The website should serve as a easy way for internationals to interact with each other and share the funny ideas they have with each other in a collective enviroment in which they can all feel apart of. 
+
+it should serve as a forum to be little any person of any kind although they are memes. they should be made in a way in which no one would feel like they being made fun of. this is up to the users and the administrators to look out for as the website progresses.
