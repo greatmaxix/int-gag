@@ -19,14 +19,14 @@
 We will design Int-Gag using Php, Laravel with a mysqldatabase. We will use html/css to design a nice lookinginterface posts in
 the middle of the page with ample space on either side forlater added features. The tables in the database shouldhold; 
 
-    #### 1. Users 
+    1. Users 
     * id,
     * usernames, 
     * passwords,
     * emails,
     * Date of birth
 
-    #### 2. Posts 
+    2. Posts 
 
     holding
     * id,
@@ -37,7 +37,7 @@ the middle of the page with ample space on either side forlater added features. 
     * Amount of likes,
     * Amount of dislikes
     
-    #### 3. Comments
+    3. Comments
     * User id 
     * Post id
     * Comment
