@@ -90,5 +90,4 @@ The purpose of the system is to create an application that can be used by Intern
 
 ### Summary
 
-
-
+For the success of this system we will rely mostly on peer programming to minimise the errors that programmers may have. Our main focus will be on creating a user-friendly system that does not discriminate against gender, race, age, ethnic group and so on so our design will be highly maintained by allowing users to send emails should they wish to make comments or complaints about the design. Some of the open questions we have thus far include the limitation of users who will try to post negative posts or make nasty comments. The system will be maintaned and updated frequently to keep up with the fast-pased changes on a daily basis and the community will well taken care of.
