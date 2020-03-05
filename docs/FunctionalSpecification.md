@@ -35,13 +35,6 @@ the user can write a post/meme into the his own page and it will show on other u
 will have two taps the first one would be for the users were admin can manage the users of the system.
 the seconed tap could be the posts tab were an admin can remove and add/update posts
 
-
-
-
-
-
-
-
 ## **What it should be, and what it should not be**
 
 #### MUST NOT;
@@ -56,7 +49,7 @@ the seconed tap could be the posts tab were an admin can remove and add/update p
 - run cleanly and smoothly
 
 
-=========
+---
 
 
 ## Constraints on the system (eg.: laws, standards)
