@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('/INT-GAG', "MainController@index")->name("INT-GAG");
+
+Auth::routes();
