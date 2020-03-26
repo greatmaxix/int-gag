@@ -9,34 +9,6 @@
         <div class="row">
             <div class="col">
 
-                <div class="form-group">
-                      <label for="firstname">First Name</label>
-                      <input id="firstname" class="form-control {{$errors->has('firstname') ? 'is-invalid' : ' '}}" type="text" value="{{old('firstname')}}" name="firstname">
-                      @if ($errors->has('firstname'))
-                        @foreach ($errors->get('firstname') as $error)
-                            <p class="invalid-feedback">{{$error}}</p>
-                        @endforeach
-                      @endif
-                </div>
-
-            </div>
-            <div class="col">
-
-                <div class="form-group">
-
-                    <label for="lastname">Last Name</label>
-                    <input id="lastname" class="form-control {{$errors->has('lastname') ? 'is-invalid' : ' '}}" type="text" value="{{old('lastname')}}" name="lastname">
-                    @if ($errors->has('lastname'))
-                      @foreach ($errors->get('lastname') as $error)
-                        <p class="invalid-feedback">{{$error}}</p>
-                      @endforeach
-                    @endif
-
-                </div>
-
-            </div>
-        </div>
-
         <div class="row">
             <div class="col">
 
