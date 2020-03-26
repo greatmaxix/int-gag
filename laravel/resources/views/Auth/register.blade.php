@@ -1,4 +1,4 @@
-@extends('layout.master')
+@extends('INT-GAG.Mainpage')
 
 @section('content')
     
