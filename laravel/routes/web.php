@@ -15,4 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/INT-GAG', "MainController@index")->name("Mainpage");
+Route::get('/INT-GAG', "MainController@index")->name("INT-GAG");
+
+Auth::routes();
