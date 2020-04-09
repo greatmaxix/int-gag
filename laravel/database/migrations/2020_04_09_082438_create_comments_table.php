@@ -13,11 +13,11 @@ class CreateCommentsTable extends Migration
      */
     public function up()
     {
-        Schema::create('votes_count', function (Blueprint $table) {
+        Schema::create('comments', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->unsignedInteger('post_id')->index('Post_Votes');
-            $table->integer('upvotes')->default(0);
-            $table->integer('downvotes')->default(0);
+            $table->unsignedInteger('post_id')->index('Comment_Post');
+            $table->unsignedInteger('user_id')->index('Comment_User');
+            $table->string('content');
             $table->timestamps();
 
             $table->foreign('post_id')
