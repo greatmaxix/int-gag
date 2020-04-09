@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('INT-GAG.Mainpage')
 
 @section('content')
 <div class="container">

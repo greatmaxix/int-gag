@@ -43,14 +43,14 @@
         </li>
       </ul>
 
-
+      
       <form class="form-inline my-2 my-lg-0" action="{{route('login')}}" method="POST">
         @csrf
         <input class="form-control mr-sm-2" type="search" placeholder="Password" name="Password" value="{{old('Password')}}" aria-label="LoginPwd">
         <input class="form-control mr-sm-2" type="search" placeholder="Username" name="Username" value="{{old('Username')}}" aria-label="Username">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Log in</button>
       </form>
-
+    
       <a href="{{route("register")}}" class="btn btn-outline-success my-2 my-sm-0"">Register</a>
 
     
