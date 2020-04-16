@@ -44,22 +44,24 @@
         </li>
       </ul>
 
-      
+
+     
       <form class="form-inline my-2 my-lg-0" action="{{route('login')}}" method="POST">
         @csrf
         <input class="form-control mr-sm-2" type="search" placeholder="Password" name="Password" value="{{old('Password')}}" aria-label="LoginPwd">
         <input class="form-control mr-sm-2" type="search" placeholder="Username" name="Username" value="{{old('Username')}}" aria-label="Username">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Log in</button>
       </form>
-      
+    
       <a href="{{route('register')}}" class="btn btn-outline-success my-2 my-sm-0">Register</a>
+     
 
     
       <form class="form-inline my-2 my-lg-0" action="{{route('logout')}}" method="POST">
         @csrf
-        <a href="{{route('logout')}}" class="btn btn-outline-success my-2 my-sm-0">logout</a>
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Log out</button>
       </form>
-
+     
     </div>
   </nav>
 
