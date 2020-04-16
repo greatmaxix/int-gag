@@ -11,10 +11,10 @@
 |
 */
 
-Route::get('/home', function () {
-    return view('welcome');
+Route::get('/', function () {
+    return view('Welcome');
 });
 
-Route::get('/INT-GAG', "MainController@index")->name("INT-GAG");
+Route::get('/home', "MainController@index")->name("INT-GAG");
 
 Auth::routes();
