@@ -21,7 +21,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="{{route("INT-GAG")}}">Home<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="{{route('INT-GAG')}}">Home<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Premium</a>
@@ -52,12 +52,12 @@
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Log in</button>
       </form>
       
-      <a href="{{route("register")}}" class="btn btn-outline-success my-2 my-sm-0"">Register</a>
+      <a href="{{route('register')}}" class="btn btn-outline-success my-2 my-sm-0">Register</a>
 
     
       <form class="form-inline my-2 my-lg-0" action="{{route('logout')}}" method="POST">
         @csrf
-        <a href="{{route("logout")}}" class="btn btn-outline-success my-2 my-sm-0"">logout</a>
+        <a href="{{route('logout')}}" class="btn btn-outline-success my-2 my-sm-0">logout</a>
       </form>
 
     </div>
