@@ -11,10 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('Welcome');
-});
+Route::get('/', 'PagesController@index');
 
-Route::get('/home', "MainController@index")->name("INT-GAG");
+Route::get('/about', 'PagesController@about');
+
+Route::get('/services', 'PagesController@services');
+
+Route::resource('posts', 'PostsController');
 
 Auth::routes();
+
+Route::get('/profile', 'ProfileController@index')->name('profile');
