@@ -149,5 +149,22 @@ class PostsController extends Controller
         return redirect()->route('posts.show', ['post' => $id])->with('success', 'Post updated!');
     }
 
-   
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function destroy($id)
+    {
+        $post = Post::find($id);
+        if(auth()->user()->id !== $post->user_id){
+            return redirect('/posts')->with('error', 'Unauthorised Page');
+        }
+        if($post->cover_image != 'noimage.png'){
+            Storage::delete('public/cover_images/'.$post->cover_image);
+        }
+        $post->delete();
+        return redirect('/posts')->with('success', 'Post Removed !');
+    }
 }
