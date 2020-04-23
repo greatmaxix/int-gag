@@ -11,10 +11,4 @@
 |
 */
 
-Route::get('/', function () {
-    return view('Welcome');
-});
-
-Route::get('/home', "MainController@index")->name("INT-GAG");
-
-Auth::routes();
+Route::get('/', 'PagesController@index');
