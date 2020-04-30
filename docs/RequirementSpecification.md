@@ -37,3 +37,10 @@ the Application will include a regestration/login system as well.
 The goal is to maximize enjoyment and engagement through capturing the interest of users.
 Also, to get familiar with the technologies and get more experience while developing the game.
 one of the goals is to know how to be a part of a team in the software industry, through some controlling tools like git, GitHub, and gitLab, also to get to use the task manager websites like Trello.com, and spread the tasks for each member of the team.
+
+# Detailed Scoping and Timeline
+This section is mostly going to be read only by the engineers working on this project, their tech leads, and their managers. Hence this section is at the end of the doc.
+
+Essentially, this is the breakdown of how and when you plan on executing each part of the project. There's a lot that goes into scoping accurately, so you can read this post to learn more about scoping.
+
+I tend to also treat this section of the design doc as an ongoing project task tracker, so I update this whenever my scoping estimate changes. But that's more of a personal preference.
