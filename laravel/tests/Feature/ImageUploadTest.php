@@ -13,10 +13,9 @@ class ImageUploadTest extends TestCase
      *
      * @return void
      */
-    public function testExample()
+    public function testImageUpload()
     {
-        $response = $this->get('/');
-
-        $response->assertStatus(200);
+        $this->visit('/')
+        ->see('Posts');  
     }
 }
