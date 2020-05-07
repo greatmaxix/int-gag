@@ -4,14 +4,13 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Authentication Language lines 
-    | You can choose a specific language here 
+    | Authentification 
+    | Vous pouvez choisir votre langue ici
     |--------------------------------------------------------------------------
     |
-    | The following language lines are used during authentication for various
-    | messages that we need to display to the user. You are free to modify
-    | these language lines according to your application's requirements.
-    | Possibilities of laguages available : English / French 
+    | les langues sont utiliser pour l'authentification et pour les messages qui vont etre publier pour l'utilisateur
+    | Vous pouvez modifier ces langues dependant de votre application 
+    | Possibilites des langues Englais / français 
     |
     */
 
