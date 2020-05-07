@@ -4,12 +4,10 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Password Reset Language Lines
+    | Redefinir votre mot de passe
     |--------------------------------------------------------------------------
-    |
-    | The following language lines are the default lines which match reasons
-    | that are given by the password broker for a password update attempt
-    | has failed, such as for an invalid token or invalid new password.
+    | Ces lines sont specifiques pour changer le mot de passe ou apres un echec de 
+    |  tapez le mot de passe correctement 
     |
     */
 
