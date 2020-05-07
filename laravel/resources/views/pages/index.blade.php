@@ -3,7 +3,7 @@
 @section('content')
 <div class="jumbotron text-center">
     <h1>{{$title}}</h1>
-    <p>I am making a laravel application </p>
+    <p>Allow us to make you Laugh!! </p>
     <p>
     </p>
 </div>
