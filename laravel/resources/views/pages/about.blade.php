@@ -33,9 +33,9 @@
             
                 <div class="col-3 text-center" style="border:1px solid #DCDCDC">
                     <img class="mb-3" style="border:4px solid blue;height:125px;border-radius: 50%;margin-top:-70px;" src="https://www.21cmuseumhotels.com/kansascity/wp-content/uploads/sites/17/2019/07/Spencer-Knipper-Urban-Table.jpg">
-                    <h4>Peter Hart</h4>
-                    <small class="text-muted">CHEF</small>
-                    <p class="text-muted">Donec porta eleifend mauris ut effici-tur. Quisque non velit vestibulum, lob-ortis mi eget, rhoncus nunc</p>
+                    <h4>Amer Mamoun</h4>
+                    <small class="text-muted">Project Manager</small>
+                    <p class="text-muted">Project managers are responsible for planning and overseeing projects to ensure they are completed in a timely fashion and within budget</p>
                     
                 </div>
                 <div class="col-3 text-center offset-1" style="border:1px solid #DCDCDC">
