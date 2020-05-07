@@ -11,7 +11,7 @@ class URegisterTest extends TestCase
      *
      * @return void
      */
-    public function testExample()
+    public function NewUserRegistrationTest()
     {
         $this->assertTrue(true);
     }
