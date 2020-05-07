@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@extends('layouts.app')
+
 @section('content')
 
 
@@ -91,21 +91,7 @@
                 </div>
             </div>
 </div>
-@if(Auth::check())
-@else
-<div class="container" style="margin-bottom:100px;">
-        <div class="row justify-content-center">
-              <div class="col-5">
-                    <h2 style="color:#BC913D;font-size:50px;font-family: 'Dancing Script', cursive;">Want to Enjoy our Services?Login to Book</h2>
-                    <a class="btn btn-outline-warning btn-lg" href="{{ route('login') }}">Login</a>
-              </div>
-              <div class="col-5"style="margin-top: 60px;">
-                    <h2 style="color:#BC913D;font-size:50px;font-family: 'Dancing Script', cursive;">Don't have an account?</h2>
-                    <a class="btn btn-outline-warning btn-lg" href="{{ route('register') }}">SignUp</a>
-              </div>
-         </div>
-  </div>
-@endif
+
 @endsection
 
     
