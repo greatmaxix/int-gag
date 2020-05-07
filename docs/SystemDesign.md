@@ -49,8 +49,10 @@ Users will be able to scroll through a feed of posts inthebeginning we shall jus
 functionalities such as a hot page(holding posts overacertain amount likes), Category pages etc. Users willbeable to look at the posts, through various categoriespagesetc without an account but in order to comment oradd posts,they should have to log in.
 
 ## Purpose and Goals
-
-The purpose of the system is to create an application that can be used by International students as well as anyone else for the sake of leisure and relaxation after a long day of lectures. It will also be very helpful in terms of interaction and building a strong community among students where they can post each others memes and come together to share a good laugh over beer or anything that they like. "A community that laughs together stays together" is our moto going into this idea. As far as to our knowledge there is no real platform that is able to connect international students other than facebook which is used for various reasons, with this application our main focus is giving people a good time.
+ General : 
+ - This system is an online platform and social media website which allows its users to upload and share "user-generated content" or other content from external social media websites.
+ Specific:
+-The purpose of the system is to create an application that can be used by International students as well as anyone else for the sake of leisure and relaxation after a long day of lectures. It will also be very helpful in terms of interaction and building a strong community among students where they can post each others memes and come together to share a good laugh over beer or anything that they like. "A community that laughs together stays together" is our moto going into this idea. As far as to our knowledge there is no real platform that is able to connect international students other than facebook which is used for various reasons, with this application our main focus is giving people a good time.
 
 
 ## Proposed Scope\Architecture
