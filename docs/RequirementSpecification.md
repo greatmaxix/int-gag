@@ -38,6 +38,10 @@ The goal is to maximize enjoyment and engagement through capturing the interest 
 Also, to get familiar with the technologies and get more experience while developing the game.
 one of the goals is to know how to be a part of a team in the software industry, through some controlling tools like git, GitHub, and gitLab, also to get to use the task manager websites like Trello.com, and spread the tasks for each member of the team.
 
+# Testability, Monitoring and Alerting
+In this section, a test plan should be written, A test functionality will be implemented to the flollowing:
+ImageUploadTest,LoginTest, LogoutTest, StreamTest, UploadPostTest, ResgisterTest, UserTest
+
 # Detailed Scoping and Timeline
 This section is mostly going to be read only by the engineers working on this project, their tech leads, and their managers. Hence this section is at the end of the doc.
 
