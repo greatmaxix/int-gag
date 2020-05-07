@@ -13,9 +13,17 @@ class URegisterTest extends TestCase
      *
      * @return void
      */
-    public function testExample()
+    public function NewUserRegistrationTest()
     {
-        $response = $this->get('/');
+        $response = $this->get('/')   
+                        ->click('Register')
+                        ->seePageIs('/register')
+                        ->type('name','Name')
+                        ->type('name@gmail.com','E-Mail Address')
+                        ->type('password','Password')
+                        ->type('password','Conform Password')
+                        ->press('Register')
+                        ->seePageIs('/Profile');
 
         $response->assertStatus(200);
     }
