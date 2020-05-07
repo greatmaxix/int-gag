@@ -4,12 +4,10 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Validation Language Lines
+    | La Validation
     |--------------------------------------------------------------------------
-    |
-    | The following language lines contain the default error messages used by
-    | the validator class. Some of these rules have multiple versions such
-    | as the size rules. Feel free to tweak each of these messages here.
+    | ces lignes sont pour les messages d'erreur utiliser par la classe Validation
+    | 
     |
     */
 
